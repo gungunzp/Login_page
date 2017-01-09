@@ -43,21 +43,16 @@ img.logo {
 
 input.input_gray {
     width: 100%;
-    background-color: #EBEBEB;
-    background-image: url(../img/form_sprite2.png);
-    background-repeat: no-repeat;
-    background-size: 2.2rem;
-    background-position: .6rem -3.1rem;
-    font-family: 'NimbusSanL Bold', Arial, Verdana, sans-serif;
-    font-size: .9rem;
-    line-height: 2.5rem;
+    background: #EBEBEB url(../img/form_sprite2.png) .6rem -3rem no-repeat;
+    background-size: 2.1rem;
+    font: .8rem 'NimbusSanL Bold', Arial, Verdana, sans-serif;
     border: none;
     margin: .4rem 0;
-    padding-left: 3.5rem;
+    padding: .8rem 0 .8rem 3.5rem;
 }
 
 input[type="password"].input_gray {
-    background-position: .6rem -1rem;
+    background-position: .6rem -.9rem;
 }
 
 .app_checkbox {
@@ -79,7 +74,7 @@ input[type="password"].input_gray {
 }
 
 .app_checkbox input[type="checkbox"]:checked + .label1 {
-    background: #EBEBEB url(../img/form_sprite2.png) no-repeat -.2rem -.1rem;
+    background: #EBEBEB url(../img/form_sprite2.png) -.2rem -.1rem no-repeat;
     background-size: 2rem;
 }
 
@@ -93,7 +88,7 @@ input[type="password"].input_gray {
 
 .app_checkbox .label2 {
     display: inline-block;
-    font-size: .9rem;
+    font-size: .75rem;
     line-height: 1.6rem;
     vertical-align: bottom;
     padding-left: .1rem;
@@ -102,7 +97,7 @@ input[type="password"].input_gray {
 a.form_link {
     display: inline-block;
     color: #C00726;
-    font-size: .9rem;
+    font-size: .75rem;
     text-decoration: none;
     margin-bottom: 1.3rem;
     transition: .2s;
@@ -118,8 +113,7 @@ a.form_link:hover {
     max-width: 13.5rem;
     background-color: #C00726;
     color: #fff;
-    font-weight: bold;
-    line-height: 3rem;
+    font: bold .85rem/3rem 'NimbusSanL Bold', Arial, Verdana, sans-serif;
     text-transform: uppercase;
     border: none;
     outline: none;
