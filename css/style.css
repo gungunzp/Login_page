@@ -1,14 +1,9 @@
-* {
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: 'NimbusSanL Bold';
     src: local('NimbusSanL Bold'), url(../fonts/NimbusSanL_Bold.ttf);
 }
 
-html,
-body {
+html {
     width: 100%;
     height: 100%;
     font-size: 100%;
@@ -17,12 +12,16 @@ body {
 }
 
 body.bg {
+    width: 100%;
+    height: 100%;
     background: #5DF6E2 url(../img/login_background.png) no-repeat center 0;
     background-size: cover;
     color: #646C6F;
-    font-family: 'NimbusSanL Bold', Arial, Verdana, sans-serif;
+    font: 100% 'NimbusSanL Bold', Arial, Verdana, sans-serif;
+    margin: 0;
     padding: 0 1rem;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .form_block {
@@ -33,6 +32,7 @@ body.bg {
     margin-top: 80px;
     margin-top: 50vh;
     padding: 1rem 2rem 2rem;
+    box-sizing: border-box;
 }
 
 img.logo {
@@ -49,6 +49,7 @@ input.input_gray {
     border: none;
     margin: .4rem 0;
     padding: .8rem 0 .8rem 3.5rem;
+    box-sizing: border-box;
 }
 
 input[type="password"].input_gray {
@@ -71,6 +72,7 @@ input[type="password"].input_gray {
     background-color: #EBEBEB;
     border: .15rem solid #EBEBEB;
     transition: border-color .2s;
+    box-sizing: border-box;
 }
 
 .app_checkbox input[type="checkbox"]:checked + .label1 {
